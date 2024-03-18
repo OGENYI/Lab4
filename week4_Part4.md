@@ -5,7 +5,7 @@
 #include <SoftwareSerial.h>
 #define DEBUG true
 #define serialCommunicationSpeed 115200
-SoftwareSerial esp8266(2,3);
+SoftwareSerial esp8266(2,3); //TX TO PIN 2, RX TO PIN 3
 //int wifiEnablePin = 8;
 
 String sendData(String command, const int timeout, boolean debug)
